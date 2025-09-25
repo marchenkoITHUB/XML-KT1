@@ -1,6 +1,6 @@
 <timeTable>
   <complexes>
-   <complex id="D001">
+   <complex id="N001">
         <name>
           Клуб теннисистов
         </name>
@@ -8,9 +8,25 @@
           ул. Вальная дом 17
         </address>
     </complex>
+    <complex id="N002">
+        <name>
+          Шахматы
+        </name>
+        <address>
+          ул. Новочеркаская дом 1к2
+        </address>
+    </complex>
   </complexes>
   <lessons>
-      <lesson code="001" complex="D001">
+      <lesson code="001" complex="N001">
+        <date>
+        25 сентября 2025
+       </date>
+        <time>
+        16:30
+       </time>
+      </lesson>
+      <lesson code="002" complex="N002">
         <date>
         25 сентября 2025
        </date>
