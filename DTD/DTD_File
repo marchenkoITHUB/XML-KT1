@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE timeTable [
-    <!ELEMENT timeTable (complexes+, lessons+)>
+    <!ELEMENT timeTable (complexes, lessons)>
     <!ELEMENT complexes (complex+) >
     <!ELEMENT lessons (lesson+)>
-    <!ELEMENT lesson (date?, time?)>
-    <!ELEMENT complex (name?, address?)>
+    <!ELEMENT lesson (date, time)>
+    <!ELEMENT complex (name, address)>
     <!ELEMENT date (#PCDATA)>
     <!ELEMENT time (#PCDATA)>
     <!ELEMENT name (#PCDATA)>
