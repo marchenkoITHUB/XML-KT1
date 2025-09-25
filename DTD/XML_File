@@ -1,0 +1,22 @@
+<timeTable>
+  <complexes>
+   <complex id="D001">
+        <name>
+          Клуб теннисистов
+        </name>
+        <address>
+          ул. Вальная дом 17
+        </address>
+    </complex>
+  </complexes>
+  <lessons>
+      <lesson code="001" complex="D001">
+        <date>
+        25 сентября 2025
+       </date>
+        <time>
+        15:30
+       </time>
+      </lesson>
+  </lessons>
+</timeTable>
